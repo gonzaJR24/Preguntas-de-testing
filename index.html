@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISTQB Foundation v2023 - Unidad 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🎯 ISTQB Foundation Level v2023 (Unidad 1)</h1>
+      <p>Unidad 1: Fundamentos de Testing</p>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressBar"></div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-item">
+        <div class="stat-number" id="currentQuestion">1</div>
+        <div class="stat-label">Pregunta Actual</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="totalQuestions">40</div>
+        <div class="stat-label">Total Preguntas</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="correctAnswers">0</div>
+        <div class="stat-label">Correctas</div>
+      </div>
+    </div>
+
+    <div class="quiz-content" id="quizContent"></div>
+
+    <div class="result-screen" id="resultScreen">
+      <div class="result-icon" id="resultIcon"></div>
+      <div class="result-score" id="resultScore"></div>
+      <div class="result-message" id="resultMessage"></div>
+      <div class="result-details">
+        <div class="detail-row">
+          <span>Total de Preguntas:</span>
+          <strong id="finalTotal">40</strong>
+        </div>
+        <div class="detail-row">
+          <span>Respuestas Correctas:</span>
+          <strong id="finalCorrect" style="color: #28a745;">0</strong>
+        </div>
+        <div class="detail-row">
+          <span>Respuestas Incorrectas:</span>
+          <strong id="finalIncorrect" style="color: #dc3545;">0</strong>
+        </div>
+        <div class="detail-row">
+          <span>Porcentaje:</span>
+          <strong id="finalPercentage">0%</strong>
+        </div>
+      </div>
+      <button class="btn btn-primary" onclick="location.reload()">🔄 Reintentar</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

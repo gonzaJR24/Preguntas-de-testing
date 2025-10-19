@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor el acto de 'probar' en software?",
+      "options": [
+        "Escribir código sin defectos",
+        "Ejecutar un conjunto de pruebas para asegurar la ausencia de errores",
+        "Planificar, ejecutar y analizar pruebas con el objetivo de evaluar y mejorar la calidad del producto",
+        "Depurar el código para eliminar fallos"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué diferencia fundamental existe entre probar y depurar?",
+      "options": [
+        "Probar busca detectar defectos, mientras que depurar identifica y corrige su causa",
+        "Probar se realiza por desarrolladores, depurar por testers",
+        "Ambos procesos son equivalentes",
+        "Depurar se realiza antes de probar"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "En el contexto de testing, ¿qué describe un 'error'?",
+      "options": [
+        "Una falla en la ejecución del sistema",
+        "Una acción humana incorrecta que introduce un defecto",
+        "Una deficiencia en el producto que genera un fallo",
+        "Un comportamiento inesperado del software"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Durante una revisión, un analista detecta un requerimiento ambiguo antes de escribir el código. ¿Qué tipo de prueba o técnica aplica?",
+      "options": [
+        "Prueba dinámica",
+        "Prueba estática",
+        "Prueba funcional",
+        "Prueba de integración"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Si el sistema se bloquea al introducir datos inválidos, ¿qué término describe este evento?",
+      "options": [
+        "Error",
+        "Defecto",
+        "Fallo",
+        "Causa raíz"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Un desarrollador introduce una condición lógica incorrecta en el código, pero el fallo solo ocurre bajo ciertas circunstancias. ¿Cómo se clasifica esta acción?",
+      "options": [
+        "Defecto",
+        "Error",
+        "Fallo",
+        "Causa raíz"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Durante una investigación de defectos, se descubre que una mala interpretación de los requisitos provocó múltiples problemas. ¿Qué representa esto?",
+      "options": [
+        "Un error humano",
+        "Un fallo",
+        "Una causa raíz",
+        "Un defecto menor"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuál es la principal diferencia entre pruebas dinámicas y estáticas?",
+      "options": [
+        "Las dinámicas se realizan sobre documentación, las estáticas sobre código",
+        "Las dinámicas requieren ejecución del software, las estáticas no",
+        "Las estáticas se aplican solo en entornos de producción",
+        "Las dinámicas son exclusivamente automatizadas"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué objetivo NO pertenece a las pruebas de software?",
+      "options": [
+        "Provocar fallos y encontrar defectos",
+        "Asegurar el cumplimiento de requisitos",
+        "Demostrar la ausencia total de errores",
+        "Reducir el riesgo del producto"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué representa la 'causa raíz' en un ciclo de defectos?",
+      "options": [
+        "El defecto más grave encontrado",
+        "La razón fundamental que originó el defecto",
+        "El tipo de prueba que detectó el fallo",
+        "El error más frecuente en un módulo"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué principio del testing indica que los defectos tienden a concentrarse en áreas específicas del sistema?",
+      "options": [
+        "La ausencia de errores es una falacia",
+        "La agrupación de defectos",
+        "El testing temprano",
+        "El testing exhaustivo es imposible"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Por qué la ausencia de errores no garantiza un producto útil?",
+      "options": [
+        "Porque el software puede ser perfecto pero no satisfacer las necesidades del usuario",
+        "Porque siempre existen defectos ocultos",
+        "Porque las pruebas nunca son suficientes",
+        "Porque los testers no tienen tiempo para revisar todo"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Un tester detecta un defecto en una historia de usuario durante la fase de requisitos. ¿Qué principio se está aplicando?",
+      "options": [
+        "El testing temprano",
+        "El testing exhaustivo es imposible",
+        "La agrupación de defectos",
+        "La ausencia de errores es una falacia"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué diferencia existe entre pruebas y aseguramiento de calidad (QA)?",
+      "options": [
+        "Las pruebas son preventivas y QA correctivo",
+        "Las pruebas son correctivas, QA es preventivo",
+        "Ambos conceptos son idénticos",
+        "QA se limita a automatizar pruebas"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "En un escenario donde un sistema no responde al presionar un botón, ¿qué término describe mejor el evento observado?",
+      "options": [
+        "Defecto",
+        "Fallo",
+        "Error",
+        "Causa raíz"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Un tester identifica que un defecto se repite en el mismo módulo a pesar de múltiples correcciones. ¿Qué principio del testing explica esta situación?",
+      "options": [
+        "Testing muestra la presencia de errores",
+        "Los errores se agrupan",
+        "Testing temprano",
+        "La ausencia de errores es una falacia"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué describe mejor una prueba?",
+      "options": [
+        "Un conjunto de actividades destinadas a encontrar defectos y evaluar la calidad de un artefacto",
+        "Una técnica para eliminar defectos",
+        "Un documento de planificación de pruebas",
+        "Un procedimiento de compilación de código"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Si una prueba revela un fallo y posteriormente se identifica un defecto en el código, ¿qué relación existe entre ambos?",
+      "options": [
+        "El fallo es la causa del defecto",
+        "El defecto es la causa del fallo",
+        "Ambos términos son equivalentes",
+        "El defecto ocurre después del fallo"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es cierta sobre los objetivos del testing?",
+      "options": [
+        "Garantizar la ausencia total de defectos",
+        "Verificar que el producto cumple los requisitos y reducir el riesgo",
+        "Aumentar la complejidad del código",
+        "Eliminar todas las causas raíz"
+      ],
+      "correct": 1
+    }
+  ]
+}
