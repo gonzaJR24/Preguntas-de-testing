@@ -301,42 +301,12 @@
       "correct": 0
     },
     {
-      "question": "¿Cuál es un producto típico de salida de la fase de planificación?",
-      "options": [
-        "Casos de prueba ejecutables",
-        "Plan de pruebas documentado",
-        "Datos de prueba generados",
-        "Informe de defectos"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "Durante la implementación, el ambiente de prueba presenta errores de configuración. ¿Qué acción es más adecuada?",
-      "options": [
-        "Repetir el análisis de requisitos",
-        "Corregir la configuración y verificar el entorno antes de ejecutar pruebas",
-        "Reescribir los casos de prueba",
-        "Ejecutar pruebas en un entorno distinto sin validación"
-      ],
-      "correct": 1
-    },
-    {
       "question": "¿Cuál de las siguientes NO es una actividad de prueba reconocida?",
       "options": [
-        "Planificación",
-        "Implementación",
+        "Planificación de pruebas",
+        "Implementación de pruebas",
         "Codificación",
-        "Ejecución"
-      ],
-      "correct": 2
-    },
-    {
-      "question": "Un equipo realiza un informe con métricas de cobertura y defectos tras terminar un ciclo de testing. ¿Qué actividad están ejecutando?",
-      "options": [
-        "Ejecución de pruebas",
-        "Monitorización y control de prueba",
-        "Compleción de pruebas",
-        "Diseño de pruebas"
+        "Ejecución de pruebas"
       ],
       "correct": 2
     },
@@ -356,19 +326,9 @@
         "Testing temprano",
         "Testing exhaustivo es imposible",
         "Agrupación de defectos",
-        "La paradoja del pesticida"
+        "Las pruebas se desgastan"
       ],
       "correct": 0
-    },
-    {
-      "question": "Si durante la ejecución se detecta que los casos de prueba no cubren todos los requisitos, ¿qué se debe hacer?",
-      "options": [
-        "Modificar los casos de prueba durante la ejecución",
-        "Volver a la fase de diseño de pruebas para ajustar las condiciones y cobertura",
-        "Finalizar el ciclo sin cambios",
-        "Esperar a la fase de compleción"
-      ],
-      "correct": 1
     },
     {
       "question": "En un escenario donde el ambiente de pruebas se cae constantemente, ¿qué fase está fallando su propósito?",
