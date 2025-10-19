@@ -189,6 +189,206 @@
         "Eliminar todas las causas raíz"
       ],
       "correct": 1
+    },
+     {
+      "question": "¿Cuál de las siguientes describe mejor la planificación de pruebas?",
+      "options": [
+        "Identificar las condiciones de prueba",
+        "Definir los objetivos y el enfoque de la prueba",
+        "Ejecutar los casos de prueba planificados",
+        "Analizar los defectos encontrados"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Durante la planificación de pruebas, ¿qué se establece como prioridad?",
+      "options": [
+        "Diseñar los datos de prueba",
+        "Identificar los defectos críticos",
+        "Definir los objetivos, recursos y cronograma del testing",
+        "Documentar los resultados"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué ocurre durante la monitorización y control de pruebas?",
+      "options": [
+        "Se define el alcance de las pruebas",
+        "Se evalúa el progreso de las pruebas y se toman acciones correctivas",
+        "Se crean las condiciones de prueba",
+        "Se validan los requisitos del sistema"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué actividad implica identificar las características a probar?",
+      "options": [
+        "Diseño de pruebas",
+        "Implementación de pruebas",
+        "Análisis de pruebas",
+        "Planificación de pruebas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "En la fase de diseño de pruebas, ¿qué se busca principalmente?",
+      "options": [
+        "Definir cómo se probará cada requisito",
+        "Monitorear la ejecución de pruebas",
+        "Cargar los datos al ambiente de producción",
+        "Identificar defectos en ejecución"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "¿Qué actividad incluye la creación de datos de prueba y la configuración del entorno?",
+      "options": [
+        "Implementación de pruebas",
+        "Ejecución de pruebas",
+        "Diseño de pruebas",
+        "Planificación de pruebas"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Durante la ejecución de pruebas, ¿qué acción se realiza?",
+      "options": [
+        "Se definen los objetivos de las pruebas",
+        "Se identifican las condiciones de prueba",
+        "Se ejecutan los casos de prueba y se registran los resultados",
+        "Se documentan las lecciones aprendidas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué se hace durante la actividad de compleción de pruebas?",
+      "options": [
+        "Se ejecutan los casos pendientes",
+        "Se cierra el ambiente y se analizan los resultados para mejorar futuros ciclos",
+        "Se definen nuevos requisitos",
+        "Se automatizan las pruebas"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Un tester detecta que los objetivos de la prueba no se cumplirán según lo planeado. ¿Qué actividad debe realizar?",
+      "options": [
+        "Ejecución de pruebas",
+        "Monitorización y control de prueba",
+        "Diseño de pruebas",
+        "Análisis de pruebas"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Si un equipo discute qué probar y en qué orden, ¿en qué fase se encuentran?",
+      "options": [
+        "Planificación de pruebas",
+        "Análisis de pruebas",
+        "Diseño de pruebas",
+        "Ejecución de pruebas"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Qué distingue al análisis de pruebas del diseño de pruebas?",
+      "options": [
+        "El análisis define qué probar; el diseño define cómo probarlo",
+        "El diseño define los objetivos; el análisis ejecuta los casos",
+        "Ambas son idénticas",
+        "El análisis solo se aplica en pruebas automatizadas"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "¿Cuál es un producto típico de salida de la fase de planificación?",
+      "options": [
+        "Casos de prueba ejecutables",
+        "Plan de pruebas documentado",
+        "Datos de prueba generados",
+        "Informe de defectos"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Durante la implementación, el ambiente de prueba presenta errores de configuración. ¿Qué acción es más adecuada?",
+      "options": [
+        "Repetir el análisis de requisitos",
+        "Corregir la configuración y verificar el entorno antes de ejecutar pruebas",
+        "Reescribir los casos de prueba",
+        "Ejecutar pruebas en un entorno distinto sin validación"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes NO es una actividad de prueba reconocida?",
+      "options": [
+        "Planificación",
+        "Implementación",
+        "Codificación",
+        "Ejecución"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Un equipo realiza un informe con métricas de cobertura y defectos tras terminar un ciclo de testing. ¿Qué actividad están ejecutando?",
+      "options": [
+        "Ejecución de pruebas",
+        "Monitorización y control de prueba",
+        "Compleción de pruebas",
+        "Diseño de pruebas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Por qué se dice que las pruebas dependen del contexto?",
+      "options": [
+        "Porque todas las pruebas deben ejecutarse igual en cualquier proyecto",
+        "Porque el enfoque y la profundidad de las pruebas cambian según el tipo de software y sus riesgos",
+        "Porque las pruebas se adaptan a la personalidad del tester",
+        "Porque las herramientas de testing siempre cambian"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "En un proyecto ágil, el tester participa en la revisión de historias de usuario antes del desarrollo. ¿Qué principio se aplica?",
+      "options": [
+        "Testing temprano",
+        "Testing exhaustivo es imposible",
+        "Agrupación de defectos",
+        "La paradoja del pesticida"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Si durante la ejecución se detecta que los casos de prueba no cubren todos los requisitos, ¿qué se debe hacer?",
+      "options": [
+        "Modificar los casos de prueba durante la ejecución",
+        "Volver a la fase de diseño de pruebas para ajustar las condiciones y cobertura",
+        "Finalizar el ciclo sin cambios",
+        "Esperar a la fase de compleción"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "En un escenario donde el ambiente de pruebas se cae constantemente, ¿qué fase está fallando su propósito?",
+      "options": [
+        "Implementación de pruebas",
+        "Diseño de pruebas",
+        "Ejecución de pruebas",
+        "Compleción de pruebas"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Durante la revisión final del proyecto, el equipo analiza qué funcionó y qué debe mejorarse en futuros ciclos. ¿A qué actividad pertenece esto?",
+      "options": [
+        "Planificación de pruebas",
+        "Análisis de pruebas",
+        "Monitorización y control de prueba",
+        "Compleción de pruebas"
+      ],
+      "correct": 3
     }
   ]
 }
